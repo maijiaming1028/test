@@ -1,0 +1,15 @@
+{
+  "scripts": { 
+    "dev": "node build/dev-server.js", 
+    "build": "node build/build.js", 
+    "server": "nodemon express_demo.js", 
+    "start": "node express_demo.js"
+    },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1"
+  }
+}
